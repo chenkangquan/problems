@@ -29,7 +29,7 @@ public class Problems {
 			String temp=String.valueOf(i);
 			if(i%3==0||(temp.indexOf("3")>=0&&(temp.indexOf("3")==temp.lastIndexOf("3")))){
 				System.out.println("Fizz");
-			}else if(i%5==0){
+			}else if(i%5==0||(temp.indexOf("5")>=0&&(temp.indexOf("5")==temp.lastIndexOf("5")))){
 				System.out.println("Buzz");
 			}else{
 				System.out.println(i);
